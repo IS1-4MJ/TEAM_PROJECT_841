@@ -1,4 +1,6 @@
 # Project Proposal
+# Vestine Musonera & Joseph Islam
+# November 14, 2022
 
 1. What AI system are you interested in investigating further and why?
 
@@ -54,7 +56,42 @@
 * lead author:Vestine 
 * editor     : Joseph
 
-* Explainability : Understand our AI system which is handwritten, how it works and the purpose of building that. 
+European Commission (2019) mentioned 7 key requirements that AI system should meet:
+
+* Human agency and oversight: to empower human beings, 
+  * allowing them to make informed decisions and fostering their fundamental rights. 
+  * proper oversight mechanisms need to be ensured, which can be achieved through human-in-the-loop, human-on-the-loop, 
+  * and human-in-command approaches
+* Technical Robustness and safety: AI systems need to be resilient and secure. 
+  * They need to be safe, 
+  * ensuring a fall back plan in case something goes wrong, 
+  * as well as being accurate, reliable and reproducible. 
+    * That is the only way to ensure that also unintentional harm can be minimized and prevented
+* Privacy and data governance: besides ensuring full respect for privacy and data protection, 
+  * adequate data governance mechanisms must also be ensured, 
+  * taking into account the quality and integrity of the data, 
+  * and ensuring legitimised access to data
+* Transparency: the data, system and AI business models should be transparent. 
+  * Traceability mechanisms can help achieving this. 
+  * AI systems and their decisions should be explained in a manner adapted to the stakeholder concerned. 
+  * Humans need to be aware that they are interacting with an AI system, 
+  * and must be informed of the system’s capabilities and limitations.
+* Diversity, non-discrimination and fairness: Unfair bias must be avoided,  
+  * it could have multiple negative implications, from the marginalization of vulnerable groups, 
+  * to the exacerbation of prejudice and discrimination. 
+  * Fostering diversity, AI systems should be accessible to all, regardless of any disability, 
+  * and involve relevant stakeholders throughout their entire life circle.
+* Societal and environmental well-being: AI systems should benefit all human beings, including future generations. 
+  * It must hence be ensured that they are sustainable and environmentally friendly. 
+  * they should take into account the environment, including other living beings, 
+  * and their social and societal impact should be carefully considered. 
+* Accountability: Mechanisms should be put in place to ensure responsibility 
+  * and accountability for AI systems and their outcomes. 
+  * Auditability, which enables the assessment of algorithms, data and design processes plays a key role therein, 
+  * especially in critical applications. Moreover, adequate an accessible redress should be ensured.
+
+Our AI system will fallow:
+* Explainability : Understand our AI system which is handwritten, how it works and the purpose of building that.
   Being able to explain to the audience how it works and how to build it if it is necessary.
 
 * Integrity: Us as developers will consider the output of our AI system and the purpose of that AI system. 
@@ -75,10 +112,25 @@
   * It is safe for environment and living being
   * Its design will have some mechanism of responsibility and accountability  
 
+By Boucher (2020) mentioned that The Commission's High-Level Expert Group on AI asserted that trustworthy 
+AI should be lawful, ethical and robust.
+
 6. What are the ethical considerations in determining the legitimate use of the AI system?
 
-* lead author: Joseph
-* editor     : Vestine
+* lead author: Joseph & Vestine
+* editor     : Vestine & Joseph
+ 
+Boucher (2020) mentioned how to apply ethics frameworks that we will use in our AI system 
+* Develop rights for the digital age: we will give access to all Fall Comp841 students access to the system
+  * Human dignity: our AI system will respect and honor the human
+* Shift from general to specific: AI system will start with the regular numbers that typed in computer,
+   * it will transform those numbers to handwritten number without drawing with a computer pencil.
+   * human will play with that system by writing a number that displays handwritten 
+* Shift from voluntary to binding: Our AI system should respect the law which means that it is going to fallow the rules 
+   of our country. it will have more and specific interpretation.
+* Establish ethics committees: Joseph and Vestine are the committee member and even any of classmates 
+* Integrate ethics meaningfully: our Professor Mihaela as an expert in AI system will help to make difference
+* Consider moratoriums carefully: the delaying time of using our system
 
   We use the categorical imperative by Immanuel Kant to determine the ethical nature of the project. 
   In particular, imagine a world in which everyone were to use our tool in its fullest to fill out forms. 
