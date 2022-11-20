@@ -16,6 +16,6 @@ Content and Organization
             AlphaZero is of interest to us because 
         What specifically you'll focus on? WHat's the overall guiding question
             your study will pursue?
-        
+            
 
   Theoretical Background
