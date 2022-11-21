@@ -20,4 +20,12 @@ Content and Organization
 
   Theoretical Background
   
-Evaluation
+
+Working Example
+Deep Reinforcement learning for Snake Game in interaction of two components:
+* environment (the game its self): Snake game is an AI system uses adaptive path finding a star algorithm to efficiently 
+  play the snack game.This game uses two dimensions array of zeros, ones and negative ones.
+  Zeros are open space, ones are either the snake's tail or the objects and negative ones are the snack food.
+* agent (snake)
+    
+   
