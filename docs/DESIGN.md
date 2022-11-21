@@ -51,4 +51,13 @@ Content and Organization
         - Deep Neural Networks: Boucher, Philip. Artificial Intelligence: How Does It Work, Why Does It Matter, and What We Can Do about It? LU: Publications Office, 2020. https://data.europa.eu/doi/10.2861/44572.
         - A Star Algorithm: https://en.wikipedia.org/wiki/A*_search_algorithm
 
+Development Approach
+    
+    What tools, platforms, APIs, libraries, datasets are available and needed 
+    to develop the AI System? 
+        All code for our project is publically available. Two such code are:
+            - https://github.com/Karthikeyanc2/Autonomous-snake-game-with-A-star-algorithm-in-PYTHON
+                Which features pygame and numpy.
+            - https://github.com/patrickloeber/snake-ai-pytorch
+                Which features the numpy and pytorch Python modules.
 Evaluation
