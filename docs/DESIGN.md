@@ -2,20 +2,26 @@ Content and Organization
 
     Introduction
         What AI system are you interested in investigating further?
-            We are interested the AlphaZero-boosted AI System from cgreer's 
-            github repository. This system consists of an implementation of the 
-            AlphaZero algorithm with Gradient Boosted Decision Trees instead of
-            A deep neural network for a -value and a policy- function.
-            Whatever the symbolic part of AlphaZero is the symbolic part of 
-            the system. Whatever the neural part of Alphazero is the 
-            neural part. The game plays connect four, which is a two player
-            game in which both players add player tiles to a grid to connect -  
-            to put in alignment - 4 tiles in a row, either diagonally, 
-            vertically, or horizontally.
+            We are interested in comparing symbolic and deep learning approaches
+            to a snake game AI as our project. The Snake in the snake game
+            is on a board, which is the environment, turns left, right, up, or down
+            as its actions, acts with full autonomy post release, which is 
+            some degree of autonomy, and attempts to grow as much as possible,
+            which represents a goal, so the snake game AI is complicit with the 
+            European commission 2021 definition of an AI.
         Why is it of interest to you?
-            AlphaZero is of interest to us because 
+            The Snake game AI is of interest to us because the Snake game AI
+            is a simple example of a path finding AI. A path finding AI is an
+            AI which finds a path from the AI agent's current position to a target
+            position. Such a path could be found simply using the A* algorithm,
+            as presented, but such a path could also be found using a deep
+            neural network. We explore the differences between these two
+            approaches in this project.
         What specifically you'll focus on? WHat's the overall guiding question
             your study will pursue?
+            Our study will particularly focus on what the key performance
+            differences between the A* algorithm and the deep learning algorithm
+            are. Similarly, we will investigate the similarities.
             
 
   Theoretical Background
