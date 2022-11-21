@@ -60,7 +60,47 @@ Development Approach
                 Which features pygame and numpy.
             - https://github.com/patrickloeber/snake-ai-pytorch
                 Which features the numpy and pytorch Python modules.
-Evaluation
+Working Example
+
+    Snake game is a Deep reinforcement learning using two componets wich are environment (game its self)
+    and agent (snake). it use an adaptive path finding a star algorhtm to effeciently play the game. 
+    it uses the dimensions array which are zeros (open space), ones (either snake's tail or objects) and negative 
+    ones(food). the array is constantly updated depending on the location of the food and the movement of the snake.
+    
+
+Discussion and Evaluation
+
+    The considerations for developing a safe and trustworthy AI:
+    Explainability : Understand snake game, how it works and the purpose of building that.
+                     Being able to explain to the audience how it works and how to build it if it is necessary.
+
+    Integrity: Us as developers will consider the output of our AI system and the purpose of that AI system. 
+               The results need to match with our predefined plan.
+
+    Conscious development: snake game AI system is beneficial with humans.
+    That system is fun for all ages. 
+
+    Reproducibility: using generating reproducible outcomes which will bring clear results. 
+    The codes, the algorithm and artifacts are clear and understandable by developers and Humans. 
+
+    Regulations: 
+    *  it does not violate any user privacy, 
+    * it is built in transparency,
+    * it does not use any bias which will help any humans to use it,
+    * It is safe for environment and living being
+    * Its design have some mechanism of responsibility and accountability  
+
+The ethical considerations in determining the legitimate use of the AI system
+
+    Boucher (2020) mentioned how to apply ethics frameworks that we will use in our AI system 
+    Develop rights for the digital age:  access  to the system
+        Human dignity: AI system should be respect and honor the human
+    Shift from general to specific: AI system needs to start with the regular general codes and ends with snake game.
+    Shift from voluntary to binding: AI system should respect the law with more specific interpretation.
+    Establish ethics committees: the group that is in charge to control the snake game
+    Integrate ethics meaningfully: the experts in AI system  help to make difference
+    Consider moratoriums carefully: the delaying time of using our system
+
+    
 
 
-jjj
