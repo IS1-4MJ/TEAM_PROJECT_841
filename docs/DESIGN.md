@@ -72,6 +72,12 @@ Working Example
 Discussion and Evaluation
 
     The considerations for developing a safe and trustworthy AI:
+    European Commission (2022), mentionned 7 key requirements that AI systems should meet in order
+    to be deemed trustworthy: Human agency and oversight, Technical Robustness and safety, Privacy and data governance,
+    Transparency, Diversity, non-discrimination and fairness, Societal and environmental well-being, Accountability.
+    
+    The AI snake game will fallows:
+
     Explainability : Understand snake game, how it works and the purpose of building that.
                      Being able to explain to the audience how it works and how to build it if it is necessary.
 
