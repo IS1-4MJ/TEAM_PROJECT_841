@@ -99,7 +99,8 @@ Discussion and Evaluation
 
 The ethical considerations in determining the legitimate use of the AI system
 
-    Boucher (2020) mentioned how to apply ethics frameworks that we will use in our AI system 
+    Boucher (2020) mentioned how to apply ethics frameworks that we will use in our AI system.
+
     Develop rights for the digital age:  access  to the system
         Human dignity: AI system should be respect and honor the human
     Shift from general to specific: AI system needs to start with the regular general codes and ends with snake game.
