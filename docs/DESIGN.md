@@ -3,15 +3,14 @@ Content and Organization
     Introduction
         What AI system are you interested in investigating further?
             We are interested in comparing symbolic and deep learning approaches
-            to a snake game AI as our project. The Snake in the snake game
-            is on a board, which is the environment, turns left, right, up, or down
-            as its actions, acts with full autonomy post release, which is 
-            some degree of autonomy, and attempts to grow as much as possible,
-            which represents a goal, so the snake game AI is complicit with the 
+            to a snake game as our AI project. The Snake in the snake game
+            is on a board, which is the environment. The Snake turns left, right, up, or down
+            as its actions. The snake acts with full autonomy post release and attempts to grow as much as possible,
+            which represents a goal. ALl of these aspects comprise and comply with the 
             European commission 2021 definition of an AI.
         Why is it of interest to you?
             The Snake game AI is of interest to us because the Snake game AI
-            is a simple example of a path finding AI. A path finding AI is an
+            is a simple example of a path-finding AI. A path-finding AI is an
             AI which finds a path from the AI agent's current position to a target
             position. Such a path could be found simply using the A* algorithm,
             as presented, but such a path could also be found using a deep
@@ -19,24 +18,25 @@ Content and Organization
             approaches in this project.
         What specifically you'll focus on? WHat's the overall guiding question
             your study will pursue?
-            Our study will particularly focus on what the key performance
+            Our study will particularly be focused on what the key performance
             differences between the A* algorithm and the deep learning algorithm
-            are. Similarly, we will investigate the similarities.
+            are. We will also investigate the similarities. Our question is what 
+            are the similarities and differences between the neural component and
+            the symbolic component?
             
 
   Theoretical Background
 
     - What areas or fields of AI provide the theoretical framework of the AI system?
-        Symbolic Ai's search subfield provides the theoretical framework of 
+        The search subfield of Symbolic AI provides the theoretical framework of 
         the AI system via the A* Algorithm. Symbolic AI is AI that reduces the 
-        search space of a options set. CSPs, The A* Algorithm is a search 
+        search space of an options set. The A* Algorithm is a search 
         algorithm designed to solve the graph traversal's shortest path problem.
-        A* works by doing x, y, and z, and pilots the snake head towards food
-        in this pygame implementation of Snake.
+        A* pilots the snake head towards food in this pygame implementation of Snake.
         
         Similarly, this project makes use of a connectivistic Deep Neural 
-        network to train a snake to find food in a similarly open map. A deep 
-        neural network is a kind neural network, which is a kind of of Directed 
+        network to train a snake to find food in a similar set. A deep 
+        neural network is a kind neural network, which is a Directed 
         Acyclic Graph (DAG). Such a graph, as a neural network, has weights as edges, an input array,
         and an output activation function. Connecting many neural networks 
         together into one big neural network makes a deep neural network, at a
@@ -47,8 +47,9 @@ Content and Organization
         The key concepts and techniques that the AI system is based on are
         the deep neural network and the A* search algorithm.
 
-    - Include appropriate references taht desacribe the field, key concepts, and techniques
-        - Deep Neural Networks: Boucher, Philip. Artificial Intelligence: How Does It Work, Why Does It Matter, and What We Can Do about It? LU: Publications Office, 2020. https://data.europa.eu/doi/10.2861/44572.
+    - Include appropriate references that desacribe the field, key concepts, and techniques
+        - Deep Neural Networks: Boucher, Philip. Artificial Intelligence: How Does It Work, Why Does It Matter, 
+                   and What We Can Do about It? LU: Publications Office, 2020. https://data.europa.eu/doi/10.2861/44572.
         - A Star Algorithm: https://en.wikipedia.org/wiki/A*_search_algorithm
 
 Development Approach
@@ -60,4 +61,47 @@ Development Approach
                 Which features pygame and numpy.
             - https://github.com/patrickloeber/snake-ai-pytorch
                 Which features the numpy and pytorch Python modules.
-Evaluation
+Working Example
+
+    Snake game is a Deep reinforcement learning using two componets wich are environment (game its self)
+    and agent (snake). it use an adaptive path finding a star algorhtm to effeciently play the game. 
+    it uses the dimensions array which are zeros (open space), ones (either snake's tail or objects) and negative 
+    ones(food). the array is constantly updated depending on the location of the food and the movement of the snake.
+    
+
+Discussion and Evaluation
+
+    The considerations for developing a safe and trustworthy AI:
+    Explainability : Understand snake game, how it works and the purpose of building that.
+                     Being able to explain to the audience how it works and how to build it if it is necessary.
+
+    Integrity: Us as developers will consider the output of our AI system and the purpose of that AI system. 
+               The results need to match with our predefined plan.
+
+    Conscious development: snake game AI system is beneficial with humans.
+    That system is fun for all ages. 
+
+    Reproducibility: using generating reproducible outcomes which will bring clear results. 
+    The codes, the algorithm and artifacts are clear and understandable by developers and Humans. 
+
+    Regulations: 
+    *  it does not violate any user privacy, 
+    * it is built in transparency,
+    * it does not use any bias which will help any humans to use it,
+    * It is safe for environment and living being
+    * Its design have some mechanism of responsibility and accountability  
+
+The ethical considerations in determining the legitimate use of the AI system
+
+    Boucher (2020) mentioned how to apply ethics frameworks that we will use in our AI system 
+    Develop rights for the digital age:  access  to the system
+        Human dignity: AI system should be respect and honor the human
+    Shift from general to specific: AI system needs to start with the regular general codes and ends with snake game.
+    Shift from voluntary to binding: AI system should respect the law with more specific interpretation.
+    Establish ethics committees: the group that is in charge to control the snake game
+    Integrate ethics meaningfully: the experts in AI system  help to make difference
+    Consider moratoriums carefully: the delaying time of using our system
+
+    
+
+
