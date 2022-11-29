@@ -67,7 +67,8 @@ Working Example
     and agent (snake). it use an adaptive path finding a star algorhtm to effeciently play the game. 
     it uses the dimensions array which are zeros (open space), ones (either snake's tail or objects) and negative 
     ones(food). the array is constantly updated depending on the location of the food and the movement of the snake.
-    
+    As Mussmann (2022) mentioned for all nodes, then A* search is optimal (always finds the shortest path).
+    This snake game will always look for a shorest path to get food and it will always be carefull with its tail.
 
 Discussion and Evaluation
 
@@ -99,6 +100,7 @@ Discussion and Evaluation
 
 The ethical considerations in determining the legitimate use of the AI system
 
+    From Vestine,
     Boucher (2020) mentioned how to apply ethics frameworks that we will use in our AI system.
 
     Develop rights for the digital age:  access  to the system
@@ -109,6 +111,35 @@ The ethical considerations in determining the legitimate use of the AI system
     Integrate ethics meaningfully: the experts in AI system  help to make difference
     Consider moratoriums carefully: the delaying time of using our system
 
-    
+    from Joseph,
+     - Privacy and surveillance
+        - Proper attribution of sources has been dealt. No data is collected.
+    - manipulation of behavior
+        - there are no users which are intended to play the game, so there is no
+           possibility for manipulation of behavior.
+    - Opacity of AI
+        - Our Deep learning AI suffers inexplicability, yet such 
+        inexplicability is inconsequential, because no societal artifacts appear
+        in our system.
+        - Our A* AI follows an explicit procedure, so non-opaque.
+        - Assume atrocious manipulation, the AI doesn't perform as well as a hamming cycle.
+    - Bias
+        - There is no social phoenomena, and so there is no bias 
+    - Automation / Employment
+        There is clear automation of the game, but there is room for improvement,
+        because the AI does not perform well, so there is no chance for interaction
+        with SNAKE competitions, and so no chance for unemployment derived from
+        our AI.
+    - Autonomous Systems
+        - The Ai is in control of itself and is responsible for its own actions.
+        - No ethical consideration is made, because the objects of priority are 
+          not agents themselves.
+    - Machine Ethics
+        The Snake AI is not capable of repurposement so is not a subject. 
+        The snake AI is therefore an object. 
+    - Artificial Moral Agents
+        The snake is technically an ethical impact agent, because
+        the snake AI simply plays an inconsequential game; No ethical patients
+        are present.
 
 
