@@ -72,6 +72,7 @@ Working Example
 Discussion and Evaluation
 
     The considerations for developing a safe and trustworthy AI:
+        Accessibility: Who has access to the code? is the code properly sourced?
     Explainability : Understand snake game, how it works and the purpose of building that.
                      Being able to explain to the audience how it works and how to build it if it is necessary.
 
@@ -92,7 +93,7 @@ Discussion and Evaluation
     * Its design have some mechanism of responsibility and accountability  
 
 The ethical considerations in determining the legitimate use of the AI system
-
+    
     Boucher (2020) mentioned how to apply ethics frameworks that we will use in our AI system 
     Develop rights for the digital age:  access  to the system
         Human dignity: AI system should be respect and honor the human
@@ -102,6 +103,36 @@ The ethical considerations in determining the legitimate use of the AI system
     Integrate ethics meaningfully: the experts in AI system  help to make difference
     Consider moratoriums carefully: the delaying time of using our system
 
-    
+    BEGIN JOSEPH
+    - Privacy and surveillance
+        - Proper attribution of sources has been dealt. No data is collected.
+    - manipulation of behavior
+        - there are no users which are intended to play the game, so there is no
+           possibility for manipulation of behavior.
+    - Opacity of AI
+        - Our Deep learning AI suffers inexplicability, yet such 
+        inexplicability is inconsequential, because no societal artifacts appear
+        in our system.
+        - Our A* AI follows an explicit procedure, so non-opaque.
+        - Assume atrocious manipulation, the AI doesn't perform as well as a hamming cycle.
+    - Bias
+        - There is no social phoenomena, and so there is no bias 
+    - Automation / Employment
+        There is clear automation of the game, but there is room for improvement,
+        because the AI does not perform well, so there is no chance for interaction
+        with SNAKE competitions, and so no chance for unemployment derived from
+        our AI.
+    - Autonomous Systems
+        - The Ai is in control of itself and is responsible for its own actions.
+        - No ethical consideration is made, because the objects of priority are 
+          not agents themselves.
+    - Machine Ethics
+        The Snake AI is not capable of repurposement so is not a subject. 
+        The snake AI is therefore an object. 
+    - Artificial Moral Agents
+        The snake is technically an ethical impact agent, because
+        the snake AI simply plays an inconsequential game; No ethical patients
+        are present.
+    END JOSEPH
 
 
